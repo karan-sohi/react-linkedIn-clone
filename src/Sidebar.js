@@ -4,6 +4,7 @@ import { Avatar } from '@mui/material'
 import { selectUser } from './features/counter/userSlice'
 import { useSelector } from 'react-redux/es/hooks/useSelector'
 
+
 function Sidebar() {
     const user = useSelector(selectUser)
     console.log(user)
